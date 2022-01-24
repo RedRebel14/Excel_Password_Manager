@@ -1,7 +1,7 @@
 # Excel_Password_Manager
 Lightweight Excel password manager. This is not aimed at replacing existing solutions such as LastPass or Keeper. This solution is for environments that do not allow for the use of password managers or may have intermittent internet access. 
 
-This Password manager utilizes a SHA1HMAC to has the master password. While there are other cryptographic and hashing methods available such as AES, those often require the instalation of version 3.5 of the .NET Framework. You may have version 4 installed which 3.5 is a subset of, it is not enabled by default. I initally wanted to create a password manager that will work in a default environment. In my use case I did not have access in order to enable version 3.5. 
+This Password manager utilizes a SHA1HMAC to hash the master password. While there are other cryptographic and hashing methods available such as AES, those often require the instalation of version 3.5 of the .NET Framework. You may have version 4 installed which 3.5 is a subset of, it is not enabled by default. I initally wanted to create a password manager that will work in a default environment. In my use case I did not have access in order to enable version 3.5. 
 
 V1.1 Fixed bug found with Error handling
 

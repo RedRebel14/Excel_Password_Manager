@@ -12,5 +12,5 @@ V1.3 Fixed bug with lock value
 Default admin password to access the developer window is Admin. I recommend changing this right away. This can be done through the vbproject properties. Right click on the project when you have opened the developer view. Select properties and you can change the password in there. 
 
 Features I am looking to add:
-- Method of changing the master password
+- Method of updating the master password
 - Adding a choice for encryption and hashing methods for individuals that have version 3.5 of the .NET Framework installed and enabled. 
